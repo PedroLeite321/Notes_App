@@ -7,10 +7,10 @@
         <div class=" collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto  mb-lg-0 ">
             <li class="nav-item">
-            <a class="nav-link active text-light " aria-current="page" href="#">Home</a>
+            <a class="nav-link active text-light " aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link text-light" href="#">Notes</a>
+            <a class="nav-link text-light" href="/notes">Notes</a>
             </li>
         </ul>
         <form class="d-flex" role="search">
