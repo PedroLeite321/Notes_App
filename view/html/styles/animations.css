@@ -1,0 +1,23 @@
+
+#filterBtn{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    height:290px; 
+    width:20px;
+}
+#filterBtn > button{
+    display:block;
+    text-align:center;
+    margin-right:15px;
+    background-color: aquamarine ;
+    transform:rotate(-90deg) ; 
+    height:80px ;
+    width:115px ;  
+    font-size:16px;
+    transition:0.1;
+}
+#filterBtn >button:hover{
+    width:125px;
+}
+

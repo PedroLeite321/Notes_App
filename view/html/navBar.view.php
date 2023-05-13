@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-primary bg-gradient">
+<nav class="navbar navbar-expand-lg" style="border-bottom:2px solid black; border-radius:1px; background-color:rgb(38, 77, 115); width:100vw">
     <div class="container-fluid">
         <a class="navbar-brand text-light fw-bolder fs-3" href="#">Note Reminder</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
