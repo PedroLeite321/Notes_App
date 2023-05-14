@@ -20,4 +20,10 @@
 #filterBtn >button:hover{
     width:125px;
 }
-
+#modalForm{
+    width:450px;
+    height:300px;
+}
+#inputModal2{
+    height:250px;
+}
