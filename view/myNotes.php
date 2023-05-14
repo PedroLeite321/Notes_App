@@ -1,7 +1,8 @@
 <?php require("./view/html/htmlHead.view.php")?>
 <?php require("./view/html/navBar.view.php")?>
-<?php require("./view/html/modal.php")?>
-<?php require("./view/html/filterModal.php")?>
+<?php require("./view/modals/modal.php")?>
+<?php require("./view/modals/filterModal.php")?>
+<?php require("./view/modals/definePriority.php")?>
 <main>
   <div class="d-flex  align-items-center justify-content-center align-content mt-4 w-100">
     <?php require("./view/html/noteRow.view.php") ?>
