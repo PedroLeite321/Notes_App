@@ -1,4 +1,3 @@
-
 #filterBtn{
     display:flex;
     justify-content:center;
@@ -17,13 +16,16 @@
     font-size:16px;
     transition:0.1;
 }
-#filterBtn >button:hover{
+#filterBtn > button:hover{
     width:125px;
 }
-#modalForm{
-    width:450px;
-    height:300px;
+#inputModal1{
+    height:30px;
+    width:400px;
+    text-indent: 5px;
 }
 #inputModal2{
-    height:250px;
+    height:300px;
+    width:700px;
+    text-indent: 5px;
 }
