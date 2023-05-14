@@ -8,13 +8,14 @@
         </div>
         <div class="modal-body">
             <form class="d-flex align-text-center flex-column align-items-center" id="modalForm" action="" method="post">
-                <input class="mt-2 rounded border border-dark" type="text" name="" id="inputModal1" placeholder="Titulo">
-                <input class="mt-2 rounded border border-dark" type="text" name="" id="inputModal2" placeholder="Conteúdo da nota">
+                <input class="mt-2 rounded border border-dark" type="text" name="cardTitle" id="inputModal1" placeholder="Titulo">
+                <textarea class="mt-2" name="cardText rounded border border-dark" id="inputModal2" cols="30" rows="10"></textarea>
             </form>
         </div>
         <div class="modal-footer justify-content-center">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-dark">Define priority</button>
         </div>
         </div>
     </div>

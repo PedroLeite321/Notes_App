@@ -9,5 +9,5 @@
     <link  rel="stylesheet" href="./view/html/styles/animations.css">
     <title>Document</title>
 </head>
-<body>
+<body class="overflow-x-hidden">
     
