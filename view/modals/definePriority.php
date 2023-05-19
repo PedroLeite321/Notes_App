@@ -7,15 +7,19 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <form class="d-flex align-text-center flex-column align-items-center" id="modalForm" action="" method="post">
-                <input class="btn btn-primary btn-gradient-dark text-light w-50 mt-2 border border-dark" type="button" value="Low-priority">
-                <input class="btn btn-dark btn-gradient-dark text-light w-50 mt-2 border border-dark" type="button" value="Normal-priority">
-                <input class="btn btn-danger btn-gradient-dark text-light w-50 mt-2 border border-dark" type="button" value="High-priority">
+            <form class="d-flex align-text-center flex-column align-items-center" id="modalForm" action="./functions/modalControl/createPriority.php" method="post">
+                <input name="LowP" class="btn btn-primary btn-gradient-dark text-light w-50 mt-2 border border-dark" type="button" value="Low-priority">
+                <input name="NormalP" class="btn btn-dark btn-gradient-dark text-light w-50 mt-2 border border-dark" type="button" value="Normal-priority">
+                <input name="highP" class="btn btn-danger btn-gradient-dark text-light w-50 mt-2 border border-dark" type="button" value="High-priority">
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <input type='submit' name="myPriority" class="btn btn-dark text-light" value="Define"></input>
+                </div>
             </form>
         </div>
         <div class="modal-footer justify-content-center">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button class="btn btn-dark text-light">Define</button>
+            <input type='submit' name="myPriority" class="btn btn-dark text-light" value="Define"></input>
         </div>
         </div>
     </div>
