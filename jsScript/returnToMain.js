@@ -1,6 +1,10 @@
 const getUrl = (() =>    {
     if(window.location == "http://localhost:8000/functions/modalControl/createNote.php"){
-        document.getElementById("success").textContent = "All done, wait a few seconds";
+        if(document.getElementById("success") != null){
+            document.getElementById("success").textContent = "All done, wait a few seconds";
+        }else{
+            document.getElementById("failure").textContent = "Please, insert something"
+        }
         const PrepareGoBack = () =>   {
             const goBack = () =>{
                 location.replace("http://localhost:8000/");

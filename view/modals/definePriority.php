@@ -17,10 +17,6 @@
                 </div>
             </form>
         </div>
-        <div class="modal-footer justify-content-center">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <input type='submit' name="myPriority" class="btn btn-dark text-light" value="Define"></input>
-        </div>
         </div>
     </div>
 </div>
