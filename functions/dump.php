@@ -1,6 +1,5 @@
 <?php
     function seeContent($value) {
-        var_dump($value);
-        echo("<h1>{$value}</h1>");
+        echo var_dump($value);
         die();
     }
