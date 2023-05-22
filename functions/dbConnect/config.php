@@ -3,9 +3,9 @@
         return [
             'dbConf' => [
                 'host' => 'localhost',
-                'port' => '3306',
+                'port' => 3306,
                 'dbName' => 'notes',
-                'charset' => 'utf-8'
+                'charset' => 'utf8mb4'
             ]
         ];
     }
