@@ -8,7 +8,7 @@ function handleContent($title, $text)    {
     stupidDebuggers($text); //echo a variable
     $myDbConf = basicConfig();
     $myDb = new MyDatabase($myDbConf['dbConf']);
-    $myDbInjection = "INSERT INTO 'notes' ('title', 'todo') VALUES ('title', 'text'); ";
+    $myDbInjection = "INSERT INTO 'notes' (title, todo) VALUES (':title', ':text'); ";
     $myDb->createQuery($myDbInjection, [$title, $text]);
 }//make a function that setup the db insertion/connection.
 function handlePriorities($priority) {
