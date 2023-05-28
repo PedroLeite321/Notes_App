@@ -7,7 +7,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <form class="d-flex align-text-center flex-column align-items-center" id="modalForm" action="./functions/modalControl/createNote.php" method="post">
+            <form class="d-flex align-text-center flex-column align-items-center" id="modalForm" action="./functions/modalControl/createNote.php" method="POST">
                 <input class="mt-2 rounded border border-dark" type="text" name="cardTitle" id="inputModal1" placeholder="Titulo">
                 <textarea class="mt-2 rounded border border-dark" name="cardText"  id="inputModal2" cols="30" rows="10"></textarea>
                 <div class="modal-footer justify-content-center">
