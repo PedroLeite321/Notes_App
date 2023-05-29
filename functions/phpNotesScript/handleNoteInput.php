@@ -6,10 +6,15 @@ function handleContent($title, $text)    {
     
 
     //echo a variable
+    $insertValues = [
+        'title' => $title, 
+        'text' => $text
+    ];
+
     $myDbConf = basicConfig();
     $myDb = new MyDatabase($myDbConf['dbConf']);
-    $myDbInjection = "INSERT INTO `notes` (title, todo) VALUES (':title',':text'); ";
-    $myDb->createQuery($myDbInjection, [':title' => $title, ':text' => $text]);
+    $myDbInjection = "INSERT INTO notes ( title, toDo) VALUES (':title', ':text');";
+    $myDb->createQuery($myDbInjection, $insertValues);
 
 }//make a function that setup the db insertion/connection.
 
