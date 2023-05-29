@@ -13,8 +13,8 @@ function handleContent($title, $text)    {
 
     $myDbConf = basicConfig();
     $myDb = new MyDatabase($myDbConf['dbConf']);
-    $myDbInjection = "INSERT INTO notes ( title, toDo) VALUES (':title', ':text');";
-    $myDb->createQuery($myDbInjection, $insertValues);
+    $sqlStatement = "INSERT INTO notes(title, toDo) VALUES(:title, :text)";
+    $myDb->createQuery($sqlStatement, $insertValues);
 
 }//make a function that setup the db insertion/connection.
 
